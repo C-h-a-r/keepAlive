@@ -4,4 +4,4 @@ const Client = new Discord.Client();
 const keepAlive = require('./server.js')
 
 
-client.login(process.env.TOKEN)
+Client.login(process.env.TOKEN)
